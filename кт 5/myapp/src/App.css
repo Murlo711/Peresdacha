@@ -1,0 +1,218 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  h1 {
+    text-align: center;body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+/* Cart styles */
+.cart {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.cart h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #343a40;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item span {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.cart-item div {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item button:hover {
+  background-color: #0056b3;
+}
+
+/* AddItemForm styles */
+form {
+  display: flex;
+  gap: 10px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+form button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #1e7e34;
+}
+    color: #2c3e50;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+  }
+  
+  /* Cart styles */
+  .cart {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    background-color: #f0f8ff; /* Light Blue Background */
+  }
+  
+  .cart h2 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+    color: #3498db;
+    border-bottom: 2px solid #3498db; /* Underline */
+    padding-bottom: 5px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px dashed #bdc3c7; /* Dashed Line */
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item span {
+    font-size: 1.1rem;
+    color: #34495e;
+    font-weight: 500;
+  }
+  
+  .cart-item div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item button {
+    background-color: #e74c3c; /* Red */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 0 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-item button:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+  }
+  
+  /* AddItemForm styles */
+  form {
+    display: flex;
+    gap: 15px;
+  }
+  
+  form input[type="text"] {
+    padding: 12px;
+    border: 2px solid #2ecc71; /* Green */
+    border-radius: 8px;
+    font-size: 1.1rem;
+    flex-grow: 1;
+    outline: none; /* Remove default focus outline */
+    transition: border-color 0.3s ease;
+  }
+  
+  form input[type="text"]:focus {
+    border-color: #27ae60; /* Darker Green */
+  }
+  
+  form button {
+    background-color: #f39c12; /* Orange */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    font-weight: 600;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  form button:hover {
+    background-color: #d35400;
+    transform: scale(1.1);
+  }
